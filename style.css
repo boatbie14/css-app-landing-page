@@ -98,17 +98,8 @@ nav a.active {
   background-color: #35354d;
 }
 
-/* display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px 120px 80px;
-gap: 80px;
 
-position: absolute;
-width: 1439px;
-height: 850px;
-left: 1px;
-top: 1096px; */
+/* Contact section */
 
 section {
     display: flex;
@@ -163,6 +154,7 @@ textarea{
     margin-bottom: 35px
 }
 
+/* Footer */
 
 footer {
     display: flex;
