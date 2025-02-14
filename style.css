@@ -1,3 +1,4 @@
+/* Header and hero section by P'Boat */
 * {
   padding: 0;
   margin: 0;
@@ -99,12 +100,79 @@ nav a.active {
   background-color: #35354d;
 }
 
-/* Contact section */
+/* Card content section by P'Tod */
+.mid-section-for-cards {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+#card-container{
+  
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.card {
+  height: 265px;
+  width: 20vw;
+  padding: 20px;
+  gap: 60px;
+  border-radius: 16px;
+  
+}
+
+.box1{
+  background-color: #D7E5F6;
+}
+
+.box2{
+  background-color:#D8E0FC ;
+}
+
+.box3{
+  background-color:#E8DCF6 ;
+}
+
+
+.card-img{
+  margin-top: 5px;
+  margin-bottom: 10%;
+  background-color: #FFFFFF99;
+  border-radius: 10px ;
+  width: 11%;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p {
+  margin-top: 30px;
+  color: #5F5F76;
+}
+
+
+
+
+
+
+
+
+/* Contact section By Don */
 section .contact-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #fff;
+  border-radius: 16px;
   flex-basis: 1199px;
   padding: 80px 120px 80px 120px;
 }
