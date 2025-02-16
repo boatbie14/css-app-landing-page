@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* Header and hero section by P'Boat */
 * {
   padding: 0;
@@ -101,156 +107,87 @@ nav a.active {
 }
 
 /* Card content section by P'Tod */
-.mid-section-for-cards {
-  display: flex;
-  margin-top: 5%;
-  margin-bottom: 8%;
-}
-
-#card-container{
-  
-  flex-grow: 1;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  
-}
-
-.card {
-  height: 265px;
-  width: 20vw;
-  padding: 20px;
-  gap: 60px;
-  border-radius: 16px;
-  
-}
-
-.box1{
-  background-color: #D7E5F6;
-}
-
-.box2{
-  background-color:#D8E0FC ;
-}
-
-.box3{
-  background-color:#E8DCF6 ;
-}
-
-
-.card-img{
-  margin-top: 5px;
-  margin-bottom: 10%;
-  background-color: #FFFFFF99;
-  border-radius: 10px ;
-  width: 11%;
-  height: 20%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card p {
-  margin-top: 30px;
-  color: #5F5F76;
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 html, body {
-    width: 100%;
-    height: 100%;
-    font-family: 'Arial', sans-serif;
-    line-height: 1.5;
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
 }
 
 .container1 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 50px;
-    flex-basis: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+  flex-basis: 100%;
 }
 
 .box1x,
 .box2x,
 .box3x {
-    width: 387px;
-    height: 272px;
-    padding: 40px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    
+  width: 387px;
+  height: 272px;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  
 }
 
 .box1x {
-    background-color: #D7E5F6;
-    flex-basis: 33.3%;
-    padding: 28px;
-    gap: 40px;
+  background-color: #D7E5F6;
+  flex-basis: 33.3%;
+  padding: 28px;
+  gap: 40px;
 
 }
 
 .box2x {
-    background-color: #D8E0FC;
-    flex-basis: 33.3%;
-    padding: 28px;
-    gap: 40px;        
+  background-color: #D8E0FC;
+  flex-basis: 33.3%;
+  padding: 28px;
+  gap: 40px;        
 }   
 
 .box3x {
-    background-color: #E8DCF6;
-    flex-basis: 33.3%;
-    padding: 28px;
-    gap: 40px;
+  background-color: #E8DCF6;
+  flex-basis: 33.3%;
+  padding: 28px;
+  gap: 40px;
 }
 
 .streamline, 
 .blazing,
 .intuitive {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 0px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 0px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .messageB1,
 .messageB2,
 .messageB3 {
-    color: #5F5F76;
-    font-size: 16px;
-    font-weight: 500;
+  color: #5F5F76;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .icon {
-    width: 60px;
-    height: 60px;
-    background: rgba(255, 255, 255, 0.6);
-    border-radius: 10px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
-
-
-
-
 
 /* Contact section By Don */
 section .contact-container {
